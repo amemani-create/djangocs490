@@ -1,0 +1,25 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+django = "==3.1"
+gunicorn = "==19.9.0"
+django-taggit = "*"
+psycopg2 = "*"
+environs = {version = "==8.0.0", extras = ["django"]}
+whitenoise = "==3.3.1"
+pillow = "*"
+django-channels = "*"
+channels-redis = "*"
+django-celery-beat = "==2.2.0"
+django-ckeditor = "==6.0.0"
+django-polymorphic = "==3.0.0"
+newsapi-python = "==0.2.6"
+zipp = "==3.4.1"
+
+[dev-packages]
+
+[requires]
+python_version = "3.8"
