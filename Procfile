@@ -1,1 +1,1 @@
-web: gunicorn djangoproject1.wsgi 
+web: gunicorn djangoproject1.wsgi --log-file -
