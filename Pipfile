@@ -9,7 +9,6 @@ gunicorn = "==19.9.0"
 django-taggit = "*"
 psycopg2 = "*"
 environs = {version = "==8.0.0", extras = ["django"]}
-whitenoise = "==3.3.1"
 pillow = "*"
 django-channels = "*"
 channels-redis = "*"
@@ -18,8 +17,10 @@ django-ckeditor = "==6.0.0"
 django-polymorphic = "==3.0.0"
 newsapi-python = "==0.2.6"
 zipp = "==3.4.1"
+whitenoise = "==3.3.1"
+psycopg2-binary = "*"
 
 [dev-packages]
 
 [requires]
-python_version = "3.8"
+python_version = "3.7"
